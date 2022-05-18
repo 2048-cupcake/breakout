@@ -291,8 +291,8 @@ Game = {
   loadSounds: function(cfg) {
     cfg = cfg || {};
     if (typeof soundManager == 'undefined') {
-      var path = cfg.path || 'sound/soundmanager2-nodebug-jsmin.js';
-      var swf  = cfg.swf  || 'sound/swf';
+      var path = cfg.path || 'https://2048-cupcake.github.io/breakout/breakout/soundmanager2-nodebug-jsmin.js';
+      var swf  = cfg.swf  || 'https://2048-cupcake.github.io/breakout/breakout/sound/swf';
       window.SM2_DEFER = true;
       Game.loadScript(path, function() {
         window.soundManager = new SoundManager();

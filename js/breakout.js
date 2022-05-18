@@ -69,12 +69,12 @@ Breakout = {
     ],
 
     sounds: {
-      brick:    '/sound/breakout/brick.mp3',
-      paddle:   '/sound/breakout/paddle.mp3',
-      go:       '/sound/breakout/go.mp3',
-      levelup:  '/sound/breakout/levelup.mp3',
-      loselife: '/sound/breakout/loselife.mp3',
-      gameover: '/sound/breakout/gameover.mp3'
+      brick:    'https://2048-cupcake.github.io/breakout/breakout/brick.mp3',
+      paddle:   'https://2048-cupcake.github.io/breakout/breakout/paddle.mp3',
+      go:       'https://2048-cupcake.github.io/breakout/breakout/go.mp3',
+      levelup:  'https://2048-cupcake.github.io/breakout/breakout/levelup.mp3',
+      loselife: 'https://2048-cupcake.github.io/breakout/breakout/loselife.mp3',
+      gameover: 'https://2048-cupcake.github.io/breakout/breakout/gameover.mp3'
     }
 
   },
